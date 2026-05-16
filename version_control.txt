@@ -1,0 +1,18 @@
+-------Version control-------
+
+Meaning:
+Version control is the process of tracking and managing changes in a repository/database. Basically, it provides documentation and traceability for changes.
+
+Benefits: 
+Version control allows a team to work simultaneously without needing multiple copies of files or constantly asking each other about the changes that were made. It also provides traceability of the data and changes.
+
+Example of version control:
+A team with three developers needs to make adjustments to a system function. However, the function is very large, so to optimize the team's time, they divide the work into previously assigned tasks, with each developer fixing a different part of the function. After completing their corrections, they upload the changes to the same repository, where the changes can be reviewed and merged together before being deployed to PROD.
+
+Git commands: 
+The common version control process is done through Git (a code versioning tool). The commands commonly used to upload code are (in this order): git add, git commit, git push.
+
+Functions of Git commands:
+-git add: Selects the files that will be versioned.
+-git commit: Saves the changes in the local history.
+-git push: Sends the commits to the remote repository.
